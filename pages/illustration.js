@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import image from 'next/image';
-import Image from 'next/image'
+import Link from 'next/link'
 import styles from '../styles/Illustration.module.css'
 
 
@@ -26,15 +26,15 @@ export default function Webdesign() {
 
 
       <main className={styles.main}>
-        <div className={styles.mainallbar}>
+      <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
-            <img src="/icon.png"></img>
-            <a href="/"><b>PARK INAE</b></a>
-            <a href="/about">About</a>
-            <a href="/graphicdesign">Graphic Design</a>
-            <a href="/webdesign">Web Design</a>
-            <a href="/illustration">Illustration</a>
-            <a href="/contact">Contact</a>
+            <img src="/icon.png" alt="Inae Icon"></img>
+            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/about">About</Link>
+            <Link href="/graphicdesign">Graphic Design</Link>
+            <Link href="/webdesign">Web Design</Link>
+            <Link href="/illustration">Illustration</Link>
+            <Link href="/contact">Contact</Link>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>
