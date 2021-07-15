@@ -22,6 +22,7 @@ export default function Graphicdesign() {
         <title>PARK INAE PORTFOLIO 2021</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
       </Head>
 
 
@@ -29,7 +30,7 @@ export default function Graphicdesign() {
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
             <img src="/icon.png" alt="Inae Icon"></img>
-            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/" passHref><b>PARK INAE</b></Link>
             <Link href="/about">About</Link>
             <Link href="/graphicdesign">Graphic Design</Link>
             <Link href="/webdesign">Web Design</Link>
@@ -45,7 +46,6 @@ export default function Graphicdesign() {
             </div>
             <div className={styles.contentx}><Link href="/">✕</Link></div>
             <div className={styles.contentall}>
-                {/* <div className={styles.contenttitle}>Text</div> */}
                 <div className={styles.contentdetail}>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2a.png" className={styles.detailimg} alt="Moobonglim poster"/></a>
@@ -115,11 +115,11 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Design and Illustration, 2014" href="/justbbmask1.jpg"><img src="/justbbmask1.jpg" className={styles.detailimg} alt="Just BB"/>JustBB.zip</a>
                     </div>
                     <div className={styles.detailbox}>
-                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIM'S, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave5.jpg"><img src="/koreawave5.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIM'S, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave4.jpg"><img src="/koreawave4.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIM'S, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave3.png"><img src="/koreawave3.png" className={styles.detailimg} alt="Korea Wave Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIM'S, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave2.jpg"><img src="/koreawave2.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIM'S, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave1.jpg"><img src="/koreawave1.jpg" className={styles.detailimg} alt="Korea Wave Branding"/>KIM'S.zip</a>
+                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIMS, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave5.jpg"><img src="/koreawave5.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
+                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIMS, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave4.jpg"><img src="/koreawave4.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
+                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIMS, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave3.png"><img src="/koreawave3.png" className={styles.detailimg} alt="Korea Wave Branding"/></a>
+                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIMS, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave2.jpg"><img src="/koreawave2.jpg" className={styles.detailimg} alt="Korea Wave Branding"/></a>
+                        <a className={styles.detail} data-fancybox="images-k" data-caption="KIMS, Brand Logo, Character and print meterial Desgin, Design, 2011" href="/koreawave1.jpg"><img src="/koreawave1.jpg" className={styles.detailimg} alt="Korea Wave Branding"/>KIMS.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-br" data-caption="Bros, Sanmyeong University and Donduk University Magazine Desgin, Graphic Design, 2017" href="/bros2.png"><img src="/bros2.png" className={styles.detailimg} alt="Bros Magazine Design"/></a>
@@ -135,7 +135,6 @@ export default function Graphicdesign() {
             </div>
         </div>
         
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
       </main>    
       
     </div>

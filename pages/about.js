@@ -21,7 +21,7 @@ export default function About() {
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
             <img src="/icon.png" alt="Inae Icon"></img>
-            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/" passHref><b>PARK INAE</b></Link>
             <Link href="/about">About</Link>
             <Link href="/graphicdesign">Graphic Design</Link>
             <Link href="/webdesign">Web Design</Link>

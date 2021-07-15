@@ -21,7 +21,7 @@ export default function Home() {
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
             <img src="/icon.png" alt="Inae Icon"></img>
-            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/" passHref><b>PARK INAE</b></Link>
             <Link href="/about">About</Link>
             <Link href="/graphicdesign">Graphic Design</Link>
             <Link href="/webdesign">Web Design</Link>
@@ -31,7 +31,7 @@ export default function Home() {
           <time className={styles.time}>{date}</time>
         </div>
         <div>
-          <Link href="/about" className={styles.about}>
+          <Link href="/about" className={styles.about} passHref>
             <about className={styles.about}>
               <img src="/about.jpg" alt="About me Image"></img>
               <boxtext className={styles.boxtext}>
@@ -42,7 +42,7 @@ export default function Home() {
         </div>
         <folders className={styles.folders}>
           <folder className={styles.folder}>
-            <Link href="/graphicdesign">
+            <Link href="/graphicdesign" passHref>
               <div className={styles.boxes}>
                 <img src="/Graphic Design.png" alt="Graphic design folder"></img>              
                 <boxtext className={styles.boxtext}>
@@ -52,7 +52,7 @@ export default function Home() {
             </Link>
           </folder>
           <folder className={styles.folder}>
-            <Link href="/webdesign">
+            <Link href="/webdesign" passHref>
               <div className={styles.boxes}>
                 <img src="/Web Design.png" alt="Web design folder"></img>              
                 <boxtext className={styles.boxtext}>
@@ -62,7 +62,7 @@ export default function Home() {
             </Link>
           </folder>
           <folder className={styles.folder}>
-            <Link href="/illustration">
+            <Link href="/illustration" passHref>
               <div className={styles.boxes}>
                 <img src="/illustration.png" alt="Illustration"></img>              
                 <boxtext className={styles.boxtext}>
@@ -74,7 +74,7 @@ export default function Home() {
         </folders>
         <div>
           <div>
-            <Link href="/contact" className={styles.contact}>
+            <Link href="/contact" className={styles.contact} passHref>
               <about className={styles.contact}>
                 <img src="/contact.jpg" alt="Contact Image"></img>
                 <boxtext className={styles.boxtext}>

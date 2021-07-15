@@ -22,6 +22,8 @@ export default function Webdesign() {
         <title>PARK INAE PORTFOLIO 2021</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+
       </Head>
 
 
@@ -29,7 +31,7 @@ export default function Webdesign() {
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
             <img src="/icon.png" alt="Inae Icon"></img>
-            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/" passHref><b>PARK INAE</b></Link>
             <Link href="/about">About</Link>
             <Link href="/graphicdesign">Graphic Design</Link>
             <Link href="/webdesign">Web Design</Link>
@@ -87,7 +89,6 @@ export default function Webdesign() {
             </div>
         </div>
         
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
       </main>    
       
     </div>
