@@ -1,6 +1,9 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
+import { Fancybox } from "@fancyapps/ui";
+
+
 import styles from '../styles/Webdesign.module.css'
 
 
@@ -10,6 +13,8 @@ var date = moment().format('YYYY-MM-DD HH:mm:ss');
 
 
 export default function Webdesign() {
+
+
 
   return (
     <div className={styles.main}>
@@ -22,7 +27,7 @@ export default function Webdesign() {
         <title>PARK INAE PORTFOLIO 2021</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
-        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script>
+        {/* <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script> */}
 
       </Head>
 

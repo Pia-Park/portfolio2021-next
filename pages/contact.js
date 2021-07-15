@@ -1,8 +1,11 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
-import styles from '../styles/Contact.module.css'
 import emailjs from 'emailjs-com'
+
+
+
+import styles from '../styles/Contact.module.css'
 
 
 
@@ -62,7 +65,7 @@ export default function Contact() {
                         
                         <div className={styles.contactdetail}>
                             <div className={styles.label}>
-                                <label for="name">Name</label>
+                                <label>Name</label>
                             </div>
                             <div className={styles.labelinput}>
                                 <input type="text" name="name" id="name" placeholder="Your name" required />
@@ -70,7 +73,7 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactdetail}>
                             <div className={styles.label}>
-                                <label for="email">E-mail</label>
+                                <label>E-mail</label>
                             </div>
                             <div className={styles.labelinput}>
                                 <input type="text" name="email" id="email" placeholder="Your E-mail" required />
@@ -78,7 +81,7 @@ export default function Contact() {
                         </div>
                         <div className={styles.contactdetail}>
                             <div className={styles.label}>
-                                <label for="message">Message</label>
+                                <label>Message</label>
                             </div>
                             <div className={styles.labelinput}>
                                 <textarea cols="50" name="message" rows="10" placeholder="Your message"></textarea>
