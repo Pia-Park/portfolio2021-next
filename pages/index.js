@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
+import Link from 'next/link'
 
 var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
@@ -19,102 +20,102 @@ export default function Home() {
       <main className={styles.main}>
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
-            <img src="/icon.png"></img>
-            <a href="/"><b>PARK INAE</b></a>
-            <a href="/about">About</a>
-            <a href="/graphicdesign">Graphic Design</a>
-            <a href="/webdesign">Web Design</a>
-            <a href="/illustration">Illustration</a>
-            <a href="/contact">Contact</a>
+            <img src="/icon.png" alt="Inae Icon"></img>
+            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/about">About</Link>
+            <Link href="/graphicdesign">Graphic Design</Link>
+            <Link href="/webdesign">Web Design</Link>
+            <Link href="/illustration">Illustration</Link>
+            <Link href="/contact">Contact</Link>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>
         <div>
-          <a href="/about" className={styles.about}>
+          <Link href="/about" className={styles.about}>
             <about className={styles.about}>
-              <img src="/about.jpg"></img>
+              <img src="/about.jpg" alt="About me Image"></img>
               <boxtext className={styles.boxtext}>
                 AboutMe.jpg
               </boxtext>              
             </about>
-          </a>
+          </Link>
         </div>
         <folders className={styles.folders}>
           <folder className={styles.folder}>
-            <a href="/graphicdesign">
+            <Link href="/graphicdesign">
               <div className={styles.boxes}>
-                <img src="/Graphic Design.png"></img>              
+                <img src="/Graphic Design.png" alt="Graphic design folder"></img>              
                 <boxtext className={styles.boxtext}>
                   Graphic Design
                 </boxtext>
               </div>
-            </a>
+            </Link>
           </folder>
           <folder className={styles.folder}>
-            <a href="/webdesign">
+            <Link href="/webdesign">
               <div className={styles.boxes}>
-                <img src="/Web Design.png"></img>              
+                <img src="/Web Design.png" alt="Web design folder"></img>              
                 <boxtext className={styles.boxtext}>
                   Web Design
                 </boxtext>
               </div>
-            </a>
+            </Link>
           </folder>
           <folder className={styles.folder}>
-            <a href="/illustration">
+            <Link href="/illustration">
               <div className={styles.boxes}>
-                <img src="/illustration.png"></img>              
+                <img src="/illustration.png" alt="Illustration"></img>              
                 <boxtext className={styles.boxtext}>
                   Illustration
                 </boxtext>
               </div>
-            </a>
+            </Link>
           </folder>
         </folders>
         <div>
           <div>
-            <a href="/contact" className={styles.contact}>
+            <Link href="/contact" className={styles.contact}>
               <about className={styles.contact}>
-                <img src="/contact.jpg"></img>
+                <img src="/contact.jpg" alt="Contact Image"></img>
                 <boxtext className={styles.boxtext}>
                   Contact.jpg
                 </boxtext>              
               </about>
-            </a>
+            </Link>
 
           </div>
         </div>
         <skills>
           <skillsbox className={styles.skillsbox}>
             <skill className={styles.skill}>
-              <img src="/Illustrator-96.png"></img>              
+              <img src="/Illustrator-96.png" alt="Adobe Illustrator"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/Photoshop-96.png"></img>              
+              <img src="/Photoshop-96.png" alt="Adobe Photoshop"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/InDesign-96.png"></img>              
+              <img src="/InDesign-96.png" alt="Adobe InDesign"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/Premiere-96.png"></img>              
+              <img src="/Premiere-96.png" alt="Adobe Premiere"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/XD-96.png"></img>              
+              <img src="/XD-96.png" alt="Adobe XD"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/JavaScript-Logo.png"></img>              
+              <img src="/JavaScript-Logo.png" alt="JavaScript"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/html.png"></img>              
+              <img src="/html.png" alt="HTML"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/css.png"></img>              
+              <img src="/css.png" alt="CSS"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/react.png"></img>              
+              <img src="/react.png" alt="React"></img>              
             </skill>
             <skill className={styles.skill}>
-              <img src="/sass.png"></img>              
+              <img src="/sass.png" alt="Sass"></img>              
             </skill>
 
           </skillsbox>

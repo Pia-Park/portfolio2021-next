@@ -16,7 +16,10 @@
   padding-right: 2.5rem;
 }
 
-.menubar a:hover{
+.menubar b{
+  padding-right: 2.5rem;
+}
+.menubar :hover{
   color: gray;
 }
 
@@ -51,6 +54,9 @@
   height: 11rem;
 }
 
+.about img:hover{
+  cursor: pointer;
+}
 
 .about img{
   width: 6rem;
@@ -61,7 +67,7 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  margin-left: 57vw;  
+  margin-left: 85vw;  
   width: 8rem;
   height: 11rem;
 }
@@ -69,6 +75,10 @@
 .contact img{
   width: 6rem;
   height: auto;
+}
+
+.contact img:hover{
+  cursor: pointer;
 }
 
 
@@ -90,9 +100,13 @@
 
 .boxtext:hover{
   color: gray;
+  cursor: pointer;
 }
 
-
+.boxes img:hover{
+  cursor: pointer;
+  filter: contrast(1.75);
+}
 
 .folder{
   padding: 2rem;
@@ -144,4 +158,56 @@
     width: 100%;
     flex-direction: column;
   }
+
+  .about img{
+    width: 15vw;
+    padding-top: 1rem;
+  }
+  .folders{
+    flex-direction: column;
+    align-items: center;
+    margin-left: -6rem;
+  }
+
+  .folder{
+    padding: 1rem;
+  }
+
+  .boxes{
+    flex-direction: row;
+  }
+  .boxes img{
+    width: 20vw;
+  }
+  .boxtext{
+    padding-left: 1.5rem;
+    line-height: 1.5rem;
+  }
+
+  .contact{
+    margin-left: 60vw;
+    padding-top: 1rem;
+  }
+
+  .contact img{
+    width: 15vw;
+  }
+
+  .skillsback{
+    width: 90vw;
+    left: 5vw;
+    height: 4rem;
+  }
+
+  .skill img{
+    width: 6.6vw;
+    padding: 0;
+    margin: 0.2rem;
+  }
+
+  .skillsbox{
+    width: 90vw;
+    left: 5vw;
+  }
+
 }
