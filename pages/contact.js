@@ -54,7 +54,7 @@ export default function Contact() {
             <div className={styles.contentboxhead}>
                 Contact.jpg
             </div>
-            <div className={styles.contentx}><a href="/">✕</a></div>
+            <div className={styles.contentx}><Link href="/">✕</Link></div>
             <div className={styles.contentdetail}>
 
                 <form className={styles.contenttext} onSubmit={sendEmail}>

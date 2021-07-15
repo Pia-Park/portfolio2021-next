@@ -35,7 +35,7 @@ export default function About() {
             <div className={styles.contentboxhead}>
                 AboutMe.jpg
             </div>
-            <div className={styles.contentx}><a href="/">✕</a></div>
+            <div className={styles.contentx}><Link href="/">✕</Link></div>
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
