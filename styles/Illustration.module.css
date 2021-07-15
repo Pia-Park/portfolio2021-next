@@ -1,0 +1,136 @@
+
+.main{
+    padding: 0.5rem;
+}
+  
+.mainallbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: -1rem;
+    padding: 0.6rem;
+  
+}
+  
+.menubar a{
+    padding-right: 2.5rem;
+}
+  
+.menubar a:hover{
+    color: gray;
+}
+  
+.menubar img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+  
+.menubar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.time{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.contentbox{
+    position: relative;
+    width: 85vw;
+    height: 85vh;
+    background: linear-gradient(#1b1b1b, #111111);
+    border-radius: 1rem;
+    border: 0.5px solid rgb(68, 68, 68);
+    margin: 2rem auto;
+}
+
+.contentboxhead{
+    width: 84.8vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem 1rem 0 0;    
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.contentx{
+    position: absolute;
+    top: 0;
+    color: tomato;
+    background-color: tomato;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.contentx a:hover{
+    color: black;
+}
+
+
+
+.contenttitle{
+    color: white;
+    letter-spacing: 0.1rem;
+    font-size: 1rem;
+    text-align: center;
+    padding-top: 1rem;
+}
+
+.contentdetail{
+    /* display: inline-block;
+    flex-direction: row;
+    flex-wrap: wrap; */
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(210px, max-content));
+    grid-gap: 2rem;
+    justify-content: center;
+    padding: 1rem;
+    height: 79vh;
+    overflow-y: scroll;
+    justify-content: center;
+}
+
+
+
+.imagebox {
+    position: relative;
+
+}
+
+.detailimg{
+    width: 15rem;
+    height: auto;
+    padding: 1rem;
+}
+
+.contenttext{
+    color: white;
+    font-weight: 100;
+    padding: 4rem;
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+}
+
+
+
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+  }
