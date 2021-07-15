@@ -1,6 +1,7 @@
 import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/About.module.css'
+import Link from 'next/link'
 
 var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
@@ -19,13 +20,13 @@ export default function About() {
       <main className={styles.main}>
         <div className={styles.mainallbar}>
           <menubar className={styles.menubar}>
-            <img src="/icon.png"></img>
-            <a href="/"><b>PARK INAE</b></a>
-            <a href="/about">About</a>
-            <a href="/graphicdesign">Graphic Design</a>
-            <a href="/webdesign">Web Design</a>
-            <a href="/illustration">Illustration</a>
-            <a href="/contact">Contact</a>
+            <img src="/icon.png" alt="Inae Icon"></img>
+            <Link href="/"><b>PARK INAE</b></Link>
+            <Link href="/about">About</Link>
+            <Link href="/graphicdesign">Graphic Design</Link>
+            <Link href="/webdesign">Web Design</Link>
+            <Link href="/illustration">Illustration</Link>
+            <Link href="/contact">Contact</Link>
           </menubar>
           <time className={styles.time}>{date}</time>
         </div>
@@ -38,7 +39,7 @@ export default function About() {
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
-                    <img src="/about.jpg"></img>
+                    <img src="/about.jpg" alt="self portrait, oil painting, 2007"></img>
                     <div className={styles.text}>Self Portrait, Oil paiting, 2007</div>
                   </div>
                   <contenttext className={styles.contenttext}>

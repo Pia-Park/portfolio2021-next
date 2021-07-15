@@ -205,9 +205,61 @@
     margin: 0.2rem;
   }
 
+  .skill img:hover{
+    width: 6.6vw;
+    filter: contrast(1.75);
+  }
+
   .skillsbox{
     width: 90vw;
     left: 5vw;
+  }
+
+  .mainallbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: -1rem;
+    padding: 0.6rem;
+  
+  }
+  
+  .menubar a{
+    padding-right: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 300;
+
+  }
+  
+  .menubar b{
+    padding-right: 1rem;
+    line-height: 1rem;
+  }
+  .menubar :hover{
+    color: gray;
+  }
+  
+  .menubar img{
+    width: 1.6rem;
+    height: 1.6rem;
+    margin-right: 1rem;
+  }
+  
+  .menubar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+  }
+  
+  .time{
+    color: white;
+    font-size: 0rem;
+    /* font-weight: 100; */
+    /* letter-spacing: 0.1rem; */
   }
 
 }

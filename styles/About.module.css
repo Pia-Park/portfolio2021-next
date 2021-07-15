@@ -16,7 +16,10 @@
     padding-right: 2.5rem;
 }
   
-.menubar a:hover{
+.menubar b{
+    padding-right: 2.5rem;
+}
+.menubar :hover{
     color: gray;
 }
   
@@ -154,6 +157,52 @@
     .contenttext{
         padding: 2rem;
         line-height: 1.8rem;
+    }
+    .mainallbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: -1rem;
+        padding: 0.6rem;
+      
+    }
+      
+    .menubar a{
+        padding-right: 0.8rem;
+        font-size: 0.6rem;
+        font-weight: 300;
+    
+    }
+      
+    .menubar b{
+        padding-right: 1rem;
+        line-height: 1rem;
+    }
+    .menubar :hover{
+        color: gray;
+    }
+      
+    .menubar img{
+        width: 1.6rem;
+        height: 1.6rem;
+        margin-right: 1rem;
+    }
+      
+    .menubar{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+    }
+      
+    .time{
+        color: white;
+        font-size: 0rem;
+        /* font-weight: 100; */
+        /* letter-spacing: 0.1rem; */
     }
 
 }
