@@ -2,11 +2,14 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import emailjs from 'emailjs-com'
-
+import React from 'react';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
+import { NavLink } from 'react-router-dom'
 
 
 import styles from '../styles/Contact.module.css'
-
 
 
 
@@ -30,6 +33,16 @@ export default function Contact() {
             });
     }
 
+    const [anchorEl, setAnchorEl] = React.useState(null);
+
+    const handleClick = (event) => {
+        setAnchorEl(event.currentTarget);
+    };
+
+    const handleClose = () => {
+        setAnchorEl(null);
+    };
+
 
   return (
     <div className={styles.main}>
@@ -41,16 +54,34 @@ export default function Contact() {
 
       <main className={styles.main}>
       <div className={styles.mainallbar}>
-          <menubar className={styles.menubar}>
-            <img src="/icon.png" alt="Inae Icon"></img>
-            <Link href="/" passHref><b>PARK INAE</b></Link>
-            <Link href="/about">About</Link>
-            <Link href="/graphicdesign">Graphic Design</Link>
-            <Link href="/webdesign">Web Design</Link>
-            <Link href="/illustration">Illustration</Link>
-            <Link href="/contact">Contact</Link>
-          </menubar>
-          <time className={styles.time}>{date}</time>
+            <div className={styles.menubar}>
+                <img src="/icon.png" alt="Inae Icon"></img>
+                <Link href="/" passHref><b>PARK INAE</b></Link>
+                <Link href="/about">About</Link>
+                <Link href="/graphicdesign">Graphic Design</Link>
+                <Link href="/webdesign">Web Design</Link>
+                <Link href="/illustration">Illustration</Link>
+                <Link href="/contact">Contact</Link>
+            </div>
+          <div className={styles.bgmenu} >
+            <Button style={{color: 'white'}} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >
+                Menu
+            </Button>
+            <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+            >
+                <MenuItem component="a" href="/about" conClick={handleClose}>About</MenuItem>
+                <MenuItem component="a" href="/graphicdesign" onClick={handleClose}>Graphic Design</MenuItem>
+                <MenuItem component="a" href="/webdesign" onClick={handleClose}>Web Design</MenuItem>
+                <MenuItem component="a" href="/illustration" onClick={handleClose}>Illustration</MenuItem>
+                <MenuItem component="a" href="/contact" onClick={handleClose}>Contact</MenuItem>
+            </Menu>
+          </div>
+            <time className={styles.time}>{date}</time>
         </div>
 
         <div className={styles.contentbox}>
