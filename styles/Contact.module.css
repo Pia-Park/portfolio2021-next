@@ -223,27 +223,31 @@
         height: 80vh;
     }
 
-    .contenttext form{
+    .contenttext{
+        padding: 2rem;
+        align-items: center;
+    }
 
-        padding: 1rem;
+    .contenttext form{
+        padding: 0rem;
     }
     
     .contactdetail input{
-        width: 30vw;
+        width: 66vw;
         height: auto;
         line-height: 2rem;
         padding: 0.3rem;
     }
     
     .contactdetail textarea{
-        width: 30vw;
+        width: 66vw;
         padding: 0.3rem;
         font-family: sans-serif;
     }
     
     .submitbtn input[type=submit]{
         cursor: pointer;
-        width: 30vw;
+        width: 66vw;
         font-size: 1rem;
         letter-spacing: 0.1rem;
         padding: 0.5rem;

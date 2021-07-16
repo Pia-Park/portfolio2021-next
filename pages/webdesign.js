@@ -2,6 +2,10 @@ import Head from 'next/head'
 import Image from 'next/image'
 import Link from 'next/link'
 import { Fancybox } from "@fancyapps/ui";
+import React from 'react';
+import Button from '@material-ui/core/Button';
+import Menu from '@material-ui/core/Menu';
+import MenuItem from '@material-ui/core/MenuItem';
 
 
 import styles from '../styles/Webdesign.module.css'
@@ -13,6 +17,17 @@ var date = moment().format('YYYY-MM-DD HH:mm:ss');
 
 
 export default function Webdesign() {
+
+  const [anchorEl, setAnchorEl] = React.useState(null);
+
+  const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+  };
+
+  const handleClose = () => {
+      setAnchorEl(null);
+  };
+
 
 
 
@@ -43,6 +58,24 @@ export default function Webdesign() {
             <Link href="/illustration">Illustration</Link>
             <Link href="/contact">Contact</Link>
           </menubar>
+          <div className={styles.bgmenu} >
+            <Button style={{color: 'white'}} aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick} >
+                Menu
+            </Button>
+            <Menu
+                id="simple-menu"
+                anchorEl={anchorEl}
+                keepMounted
+                open={Boolean(anchorEl)}
+                onClose={handleClose}
+            >
+                <MenuItem component="a" href="/about" conClick={handleClose}>About</MenuItem>
+                <MenuItem component="a" href="/graphicdesign" onClick={handleClose}>Graphic Design</MenuItem>
+                <MenuItem component="a" href="/webdesign" onClick={handleClose}>Web Design</MenuItem>
+                <MenuItem component="a" href="/illustration" onClick={handleClose}>Illustration</MenuItem>
+                <MenuItem component="a" href="/contact" onClick={handleClose}>Contact</MenuItem>
+            </Menu>
+          </div>
           <time className={styles.time}>{date}</time>
         </div>
 
