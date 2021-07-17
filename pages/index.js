@@ -28,7 +28,7 @@ export default function Home() {
     <div className={styles.main}>
       <Head>
         <title>PARK INAE PORTFOLIO 2021</title>
-        <meta name="description" content="Web - Grapic Designer Portfolio " />
+        <meta name="description" content="Web Design, Graphic Design, Illustration Portfolio " />
         <link rel="icon" href="/icon.png" />
       </Head>
 
