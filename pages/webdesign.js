@@ -74,6 +74,8 @@ export default function Webdesign() {
                 <MenuItem component="a" href="/webdesign" onClick={handleClose}>Web Design</MenuItem>
                 <MenuItem component="a" href="/illustration" onClick={handleClose}>Illustration</MenuItem>
                 <MenuItem component="a" href="/contact" onClick={handleClose}>Contact</MenuItem>
+                <MenuItem component="a" href="/" onClick={handleClose}>Desktop</MenuItem>
+
             </Menu>
           </div>
           <time className={styles.time}>{date}</time>

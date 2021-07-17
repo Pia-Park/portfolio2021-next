@@ -59,6 +59,8 @@ export default function About() {
                 <MenuItem component="a" href="/webdesign" onClick={handleClose}>Web Design</MenuItem>
                 <MenuItem component="a" href="/illustration" onClick={handleClose}>Illustration</MenuItem>
                 <MenuItem component="a" href="/contact" onClick={handleClose}>Contact</MenuItem>
+                <MenuItem component="a" href="/" onClick={handleClose}>Desktop</MenuItem>
+
             </Menu>
           </div>
           <time className={styles.time}>{date}</time>
@@ -78,7 +80,7 @@ export default function About() {
                   <contenttext className={styles.contenttext}>
                       <b>PARK INAE</b><br></br>
                       Graphic / Web Designer / Illustrator<br></br>
-                      Experienced graphic designer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
+                      Experienced Graphic Designer, Web Desginer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
                       <br></br><b>Skills</b><br></br>
                       Adobe Photoshop / Adobe Illustrator<br></br>
                       Adobe Indesign / Adobe Premiere<br></br>

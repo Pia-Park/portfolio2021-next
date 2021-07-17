@@ -124,6 +124,13 @@
     /* margin: 1rem; */
 }
 
+.detailimg1{
+    width: 15rem;
+    height: auto;
+    display: none;
+    /* margin: 1rem; */
+}
+
 .contenttext{
     color: white;
     font-weight: 100;

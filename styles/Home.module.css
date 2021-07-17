@@ -163,14 +163,19 @@
     flex-direction: column;
   }
 
+  .about{
+    flex-direction: row;
+  }
+
   .about img{
     width: 15vw;
-    padding-top: 1rem;
+    padding-top: 0rem;
   }
   .folders{
     flex-direction: column;
     align-items: center;
     margin-left: -6rem;
+    margin-top: -1rem;
   }
 
   .folder{
@@ -189,24 +194,27 @@
   }
 
   .contact{
-    margin-left: 60vw;
-    padding-top: 1rem;
+    flex-direction: row;
+    margin-left: 40vw;
+    padding-top: 0rem;
+    margin-top: -2rem;
   }
 
   .contact img{
     width: 15vw;
+    margin-right: -0.5rem;
   }
 
   .skillsback{
-    width: 90vw;
-    left: 5vw;
+    width: 94vw;
+    left: 3vw;
     height: 4rem;
   }
 
   .skill img{
-    width: 6.6vw;
+    width: 7.2vw;
     padding: 0;
-    margin: 0.2rem;
+    margin: 0.1rem;
   }
 
   .skill img:hover{
