@@ -69,7 +69,7 @@ export default function Webdesign() {
                 open={Boolean(anchorEl)}
                 onClose={handleClose}
             >
-                <MenuItem component="a" href="/about" conClick={handleClose}>About</MenuItem>
+                <MenuItem component="a" href="/about" onClick={handleClose}>About</MenuItem>
                 <MenuItem component="a" href="/graphicdesign" onClick={handleClose}>Graphic Design</MenuItem>
                 <MenuItem component="a" href="/webdesign" onClick={handleClose}>Web Design</MenuItem>
                 <MenuItem component="a" href="/illustration" onClick={handleClose}>Illustration</MenuItem>
