@@ -79,8 +79,9 @@ export default function About() {
                   </div>
                   <contenttext className={styles.contenttext}>
                       <b>PARK INAE</b><br></br>
-                      Graphic / Web Designer / Illustrator<br></br>
-                      Experienced Graphic Designer, Web Desginer and illustrator, with skills in print and web design, branding, line drawing, oil painting, package design and photography.  <br></br>
+                      Graphic Designer / Web Designer / Illustrator<br></br>
+                      I have been a graphic and web designer and illustrator for 6 years, I have various types of design project experiences: web design, print material design, brand identity design, package design and illustration. 
+                      I believe that design helps people and connects people to people. Making people happy is the purpose of my design.    <br></br>
                       <br></br><b>Skills</b><br></br>
                       Adobe Photoshop / Adobe Illustrator<br></br>
                       Adobe Indesign / Adobe Premiere<br></br>
@@ -88,6 +89,8 @@ export default function About() {
                       HTML / SASS / CSS / Javascript<br></br>
                       NodeJS / NextJS / React<br></br>
                       Figma / Microsoft office<br></br>
+                      <br></br><b>Like</b><br></br>
+                      Donut / Library / Walking / Eating<br></br>
                 
                   </contenttext>
               </div>
