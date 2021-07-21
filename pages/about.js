@@ -89,8 +89,10 @@ export default function About() {
                       HTML / SASS / CSS / Javascript<br></br>
                       NodeJS / NextJS / React<br></br>
                       Figma / Microsoft office<br></br>
+                      <br></br><b>Language</b><br></br>
+                      English / Korean / Japanese<br></br>
                       <br></br><b>Like</b><br></br>
-                      Donut / Library / Walking / Eating<br></br>
+                      Donut / Library / Walking / Spicy Food / Coca-cola<br></br>
                 
                   </contenttext>
               </div>

@@ -104,12 +104,12 @@
 .imgbox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-start;
 }
 
 .imgbox img{
     width: 30vw;
-    height: 100%;
+    height: auto;
     padding: 1rem;
 }
 
@@ -125,7 +125,7 @@
 .contenttext{
     color: white;
     font-weight: 100;
-    padding: 4rem;
+    padding: 1rem 4rem 0 4rem ;
     letter-spacing: 0.1rem;
     line-height: 2rem;
 }
