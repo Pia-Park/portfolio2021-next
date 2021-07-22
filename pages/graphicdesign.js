@@ -121,10 +121,11 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl_exp.png"><img src="/fancl6.jpg" className={styles.detailimg} alt="FANCL Advertisement"/>FANCL.zip</a>
                     </div>
                     <div className={styles.detailbox}>
+                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech1.png"><img src="/etech1.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech2.png"><img src="/etech2.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech3.png"><img src="/etech3.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech4.png"><img src="/etech4.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech1.jpg"><img src="/etech1.jpg" className={styles.detailimg} alt="E TechHive Branding"/>E techHive.zip</a>
+                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech_exp.jpg"><img src="/etech1.jpg" className={styles.detailimg} alt="E TechHive Branding"/>E techHive.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta1.jpg"><img src="/meta1.jpg" className={styles.detailimg1} alt="Fujifilm Metabaria"/></a>
