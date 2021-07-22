@@ -85,6 +85,7 @@ export default function Graphicdesign() {
             <div className={styles.contentall}>
                 <div className={styles.contentdetail}>
                     <div className={styles.detailbox}>
+                        {/* <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/beeeen_exp.jpg"><img src="beeeen_exp.jpg" className={styles.detailimg1} alt="Moobonglim poster"/></a> */}
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh2.jpg"><img src="/fb_mbh2a.png" className={styles.detailimg1} alt="Moobonglim poster"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh3.jpg"><img src="/fb_mbh3.png" className={styles.detailimg1} alt="Moobonglim poster"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Moobonglim Exhibition Graphic Design, 2015" href="/fb_mbh4.jpg"><img src="/fb_mbh4.png" className={styles.detailimg1} alt="Moobonglim poster"/></a>
@@ -94,7 +95,7 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead2.jpg"><img src="/linead2a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead4.jpg"><img src="/linead4a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead5.jpg"><img src="/linead5a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
-                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead3.jpg"><img src="/linead3a.png" className={styles.detailimg} alt="Beeeen Company Brand Advertisement"/>Beeeen Company.zip</a>
+                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/beeeen_exp.jpg"><img src="/linead3a.png" className={styles.detailimg} alt="Beeeen Company Brand Advertisement"/>Beeeen Company.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba1.jpg"><img src="/haba1.jpg" className={styles.detailimg1} alt="HABA Advertisement"/></a>
@@ -120,6 +121,7 @@ export default function Graphicdesign() {
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech2.png"><img src="/etech2.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech3.png"><img src="/etech3.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
+                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech4.png"><img src="/etech4.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech1.jpg"><img src="/etech1.jpg" className={styles.detailimg} alt="E TechHive Branding"/>E techHive.zip</a>
                     </div>
                     <div className={styles.detailbox}>
