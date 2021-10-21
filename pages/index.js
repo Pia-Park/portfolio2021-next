@@ -119,7 +119,7 @@ export default function Home() {
 
           </div>
         </div>
-        <skills>
+        <skills className={styles.skillall}>
           <skillsbox className={styles.skillsbox}>
             <skill className={styles.skill}>
               <img src="/Illustrator-96.png" alt="Adobe Illustrator"></img>              
