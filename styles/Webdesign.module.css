@@ -104,8 +104,9 @@
     flex-wrap: wrap; */
     display: grid;
     grid-template-columns: 20vw 20vw 20vw;
+    grid-template-rows: 20vw;
     /* grid-template-columns: repeat(auto-fit, minmax(200px, max-content)); */
-    grid-gap: 5rem;
+    column-gap: 5rem;
     justify-content: center;
     padding: 1rem;
     height: 79vh;
