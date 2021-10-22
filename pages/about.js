@@ -78,9 +78,9 @@ export default function About() {
                     <div className={styles.text}>Self Portrait, Oil paiting, 2007</div>
                   </div>
                   <contenttext className={styles.contenttext}>
-                      <b>PARK INAE</b><br></br>
-                      Graphic Designer / Web Designer / Illustrator<br></br>
-                      I have been a graphic and web designer and illustrator for 6 years, I have various types of design project experiences: web design, print material design, brand identity design, package design and illustration. 
+                      <b>PARK INAE </b><br></br>
+                      Web Designer / Graphic Designer / Illustrator<br></br>
+                      I have been a Web and Graphic designer and Illustrator for 6 years, I have various types of design project experiences: website design, web advertising design, print material design, brand identity design, package design and illustration. 
                       I believe that design helps people and connects people to people. Making people happy is the purpose of my design.    <br></br>
                       <br></br><b>Skills</b><br></br>
                       Adobe Photoshop / Adobe Illustrator<br></br>
@@ -88,11 +88,11 @@ export default function About() {
                       Adobe After effect / Adobe XD<br></br>
                       HTML / SASS / CSS / Javascript<br></br>
                       NodeJS / NextJS / React<br></br>
-                      Figma / Microsoft office<br></br>
+                      Figma / Jira / Microsoft office<br></br>
                       <br></br><b>Language</b><br></br>
                       English / Korean / Japanese<br></br>
                       <br></br><b>Like</b><br></br>
-                      Donut / Library / Walking / Spicy Food / Coca-cola<br></br>
+                      Donut🍩 / Library📕 / Walking🚶‍♀️ / Spicy Food🥢 / McDonald's🍟<br></br>
                 
                   </contenttext>
               </div>
