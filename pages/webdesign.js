@@ -88,7 +88,17 @@ export default function Webdesign() {
             <div className={styles.contentx}><Link href="/">✕</Link></div>
             <div className={styles.contentall}>
                 <div className={styles.contentdetail}>
-                <div className={styles.detailbox}>
+                  <div className={styles.detailbox}>
+                    <Link href="/datametrex" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/dm_main.jpg" alt="datametrex website design" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          datametrex.com
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
+                  <div className={styles.detailbox}>
                     <a className={styles.detail} data-fancybox="video" data-caption="JustBB, Web Magazine Design, Photoshop/Illustrator, 2014" href="/justbb.webm">
                       <img src="/webjustbb.png" className={styles.detailimg} alt="JustBB Webzine"/>
                       JustBB.mov
@@ -96,7 +106,7 @@ export default function Webdesign() {
                   </div>
                   <div className={styles.detailbox}>
                     <a className={styles.detail} data-fancybox="video" data-caption="Suntory, locomoa Product Landing Page Design and Illustration, Photoshop/Illustrator, 2019" href="/suntory_lcmr_a.webm">
-                      <img src="/lcmr_a.png" className={styles.detailimg} alt="Suntory Locomoa"/>
+                      <img src="/lcma_main.jpg" className={styles.detailimg} alt="Suntory Locomoa"/>
                       Suntory_lcma.mov
                     </a>
                   </div>
@@ -112,7 +122,7 @@ export default function Webdesign() {
                       Suntory_glc.mov
                     </a>
                   </div>
-                  <div className={styles.detailbox}>
+                  {/* <div className={styles.detailbox}>
                     <a className={styles.detail} data-fancybox="video" data-caption="Project, Shopping mall Web site Design and Logo Design, html/javascript/sass, 2021" href="/goodgirl.webm">
                       <img src="/goodgirl.jpg" className={styles.detailimg} alt="Good Girl Project"/>
                       Good Girl Project.mov
@@ -123,7 +133,7 @@ export default function Webdesign() {
                       <img src="/11am.png" className={styles.detailimg} alt="11am Project"/>
                       11am Project.mov
                     </a>
-                  </div>
+                  </div> */}
                 </div>
 
             </div>
