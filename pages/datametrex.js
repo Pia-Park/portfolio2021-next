@@ -77,10 +77,11 @@ export default function Datametrex() {
                   <div className={styles.imgbox}>
                     <a href="https://www.datametrex.com/" target="_blank" rel="noreferrer">
                       <img src="/dm_main.jpg" alt="datametrex website design, 2021"></img>
+                      Visit the website (click)
                     </a>
                   </div>
                   <contenttext className={styles.contenttext}>
-                      <b>datametrex website design, 2021</b><br></br>
+                      <b>datametrex website design, 2021</b>
                       Photoshop / Illustrator / Wix<br></br>
                       • Website redesign<br></br>
                       • Update information<br></br>

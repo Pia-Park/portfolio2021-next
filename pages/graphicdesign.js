@@ -95,7 +95,7 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead2.jpg"><img src="/linead2a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead4.jpg"><img src="/linead4a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/linead5.jpg"><img src="/linead5a.png" className={styles.detailimg1} alt="Beeeen Company Brand Advertisement"/></a>
-                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/beeeen_exp.jpg"><img src="/linead3a.png" className={styles.detailimg} alt="Beeeen Company Brand Advertisement"/>Beeeen Company.zip</a>
+                        <a className={styles.detail} data-fancybox="images-d" data-caption="Beeeen company, Brand advertisement, 2015" href="/beeeen_exp.jpg"><img src="/fb_mbh6.png" className={styles.detailimg} alt="Beeeen Company Brand Advertisement"/>Beeeen Company.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba3.jpg"><img src="/haba3.jpg" className={styles.detailimg1} alt="HABA Advertisement"/></a>
@@ -105,7 +105,7 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba5.jpg"><img src="/haba5.jpg" className={styles.detailimg1} alt="HABA Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba6.jpg"><img src="/haba6.jpg" className={styles.detailimg1} alt="HABA Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba7.jpg"><img src="/haba7.jpg" className={styles.detailimg1} alt="HABA Advertisement"/></a>
-                        <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba_exp.png"><img src="/haba3.jpg" className={styles.detailimg} alt="HABA Advertisement"/>HABA.zip</a>
+                        <a className={styles.detail} data-fancybox="images-h" data-caption="Haba, Cosmetic Advertisement, Create concepts for Photography and Design, 2018" href="/haba_exp.png"><img src="/haba_thum.jpg" className={styles.detailimg} alt="HABA Advertisement"/>HABA.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl6.jpg"><img src="/fancl6.jpg" className={styles.detailimg1} alt="FANCL Advertisement"/></a>
@@ -118,24 +118,24 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl3-1.jpg"><img src="/fancl3-1.jpg" className={styles.detailimg1} alt="FANCL Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl4.jpg"><img src="/fancl4.jpg" className={styles.detailimg1} alt="FANCL Advertisement"/></a>
                         <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl5.jpg"><img src="/fancl5.jpg" className={styles.detailimg1} alt="FANCL Advertisement"/></a>
-                        <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl_exp.png"><img src="/fancl6.jpg" className={styles.detailimg} alt="FANCL Advertisement"/>FANCL.zip</a>
+                        <a className={styles.detail} data-fancybox="images-f" data-caption="Fancl, Cosmetic Advertisement, Create concepts for Photography and Design, 2019" href="/fancl_exp.png"><img src="/fancl_thum.jpg" className={styles.detailimg} alt="FANCL Advertisement"/>FANCL.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech1.png"><img src="/etech1.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech2.png"><img src="/etech2.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech3.png"><img src="/etech3.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
                         <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech4.png"><img src="/etech4.png" className={styles.detailimg1} alt="E TechHive Branding"/></a>
-                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech_exp.jpg"><img src="/etech1.jpg" className={styles.detailimg} alt="E TechHive Branding"/>E techHive.zip</a>
+                        <a className={styles.detail} data-fancybox="images-et" data-caption="E-tech Hive, Brand Identity and applications, Design, 2017" href="/etech_exp.jpg"><img src="/etech_thum.jpg" className={styles.detailimg} alt="E TechHive Branding"/>E techHive.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta1.jpg"><img src="/meta1.jpg" className={styles.detailimg1} alt="Fujifilm Metabaria"/></a>
                         <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta2.jpg"><img src="/meta2.jpg" className={styles.detailimg1} alt="Fujifilm Metabaria"/></a>
                         <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta4.jpg"><img src="/meta4.jpg" className={styles.detailimg1} alt="Fujifilm Metabaria"/></a>
-                        <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta3.jpg"><img src="/meta3.jpg" className={styles.detailimg} alt="Fujifilm Metabaria"/>Fujifilm.zip</a>
+                        <a className={styles.detail} data-fancybox="images-m" data-caption="Fujifilm, Metabaria advertisement, Design and Illustration, 2019" href="/meta3.jpg"><img src="/meta_thum.jpg" className={styles.detailimg} alt="Fujifilm Metabaria"/>Fujifilm.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-c" data-caption="Jamcity, Cookie Jam Blast advertisement, Design, 2019" href="/cjblast1.jpg"><img src="/cjblast1.jpg" className={styles.detailimg1} alt="Jam city CookieJamBlast"/></a>
-                        <a className={styles.detail} data-fancybox="images-c" data-caption="Jamcity, Cookie Jam Blast advertisement, Design, 2019" href="/cjblast2.jpg"><img src="/cjblast2.jpg" className={styles.detailimg} alt="Jam city CookieJamBlast"/>Jam City.zip</a>
+                        <a className={styles.detail} data-fancybox="images-c" data-caption="Jamcity, Cookie Jam Blast advertisement, Design, 2019" href="/cjblast2.jpg"><img src="/cjblast_thum.jpg" className={styles.detailimg} alt="Jam city CookieJamBlast"/>Jam City.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws1.jpg"><img src="/ws1.jpg" className={styles.detailimg1} alt="Warship Saga"/></a>
@@ -147,7 +147,7 @@ export default function Graphicdesign() {
                         <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws8.jpg"><img src="/ws8.jpg" className={styles.detailimg1} alt="Warship Saga"/></a>
                         <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws9.jpg"><img src="/ws9.jpg" className={styles.detailimg1} alt="Warship Saga"/></a>
                         <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws10.jpg"><img src="/ws10.jpg" className={styles.detailimg1} alt="Warship Saga"/></a>
-                        <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws6.jpg"><img src="/ws6.jpg" className={styles.detailimg} alt="Warship Saga"/>Warship saga.zip</a>
+                        <a className={styles.detail} data-fancybox="images-w" data-caption="Warship Saga, Warship Saga advertisement, Design, 2018" href="/ws6.jpg"><img src="/ws_thum.jpg" className={styles.detailimg} alt="Warship Saga"/>Warship saga.zip</a>
                     </div>
                     <div className={styles.detailbox}>
                         <a className={styles.detail} data-fancybox="images-j" data-caption="JustBB, Mask Pack Package Series, Package Design and Illustration, 2014" href="/justbbmask2.jpg"><img src="/justbbmask2.jpg" className={styles.detailimg1} alt="Just BB"/></a>

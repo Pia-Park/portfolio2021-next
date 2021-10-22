@@ -113,6 +113,14 @@
     padding: 1rem;
 }
 
+.imgbox a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    padding-bottom: 1rem;
+}
+
 .imgexplain{
     width: 35vw;
     padding-top: 0.5rem;
