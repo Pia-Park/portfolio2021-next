@@ -92,18 +92,28 @@ export default function Datametrex() {
                         </div>
                         <div className={styles.before}> 
                           <b>After _ Main page</b><br></br>
-                          <img src="dm_main.jpg" alt="datametrex main page before" className={styles.imgexplain}></img>
+                          <img src="dm_main.jpg" alt="datametrex main page After" className={styles.imgexplain}></img>
                         </div>
                       </div>
                       <br></br><br></br>
                       <div className={styles.beforeafter}>
                         <div className={styles.before}> 
                           <b>Before _ Cyber Security page</b><br></br>
-                          <img src="cs_before.jpg" alt="datametrex main page before" className={styles.imgexplain}></img>
+                          <img src="cs_before.jpg" alt="datametrex Cyber Security page before" className={styles.imgexplain}></img>
                         </div>
                         <div className={styles.before}> 
                           <b>After _ Cyber Security page</b><br></br>
-                          <img src="cs.jpg" alt="datametrex main page before" className={styles.imgexplain}></img>
+                          <img src="cs.jpg" alt="datametrex Cyber Security page After" className={styles.imgexplain}></img>
+                        </div>
+                      </div>
+                      <div className={styles.beforeafter}>
+                        <div className={styles.before}> 
+                          <b>Before _ Telemedicine page</b><br></br>
+                          <img src="dm_telemedicine_before.jpg" alt="datametrex Telemedicine page before" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <b>After _ Telemedicine page</b><br></br>
+                          <img src="dm_telemedicine.jpg" alt="datametrex Telemedicine page After" className={styles.imgexplain}></img>
                         </div>
                       </div>
 
