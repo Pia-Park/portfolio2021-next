@@ -113,7 +113,7 @@ export default function Webdesign() {
                       <about className={styles.detaillink}>
                         <img src="/medicall_main.jpg" alt="Medicall website design" className={styles.detailimg}></img>
                         <boxtext className={styles.detaillinktext}>
-                          Medicall.com
+                          MedicallMD.ca
                         </boxtext>              
                       </about>
                     </Link>
