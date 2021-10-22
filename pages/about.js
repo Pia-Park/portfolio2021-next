@@ -74,7 +74,10 @@ export default function About() {
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
-                    <img src="/about.jpg" alt="self portrait, oil painting, 2007"></img>
+                    <div className={styles.card}>
+                      <img src="/about.jpg" alt="self portrait, oil painting, 2007"></img>
+                      <img src="/about_hover.jpg" alt="self portrait, oil painting, 2007" className={styles.imgtop}></img>
+                    </div>
                     <div className={styles.text}>Self Portrait, Oil paiting, 2007</div>
                   </div>
                   <contenttext className={styles.contenttext}>

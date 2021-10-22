@@ -113,13 +113,35 @@
     padding: 1rem;
 }
 
+.card{
+    position: relative;
+    display: inline-block;
+}
+
+.card .imgtop{
+    display: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 99;
+}
+
+.card:hover .imgtop{
+    display: inline;
+}
+
+/* .imgboximg{
+    width: 30vw;
+    height: auto;
+    background-image: url('/public/about.jpg');
+} */
+
 .text{
     color: white;
     text-align: center;
     letter-spacing: 0.1rem;
     font-weight: 100;
-    font-size: 0.6rem;
-    margin-top: -3rem;
+    font-size: 0.8rem;
 }
 
 .contenttext{
