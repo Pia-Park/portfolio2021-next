@@ -108,11 +108,12 @@
     grid-column-gap: 4rem;
     justify-content: center;
     padding: 1rem;
-    margin-left: -1.5rem;
     width: 85vw;
     height: 79vh;
     overflow-y: scroll;
 }
+
+
 
 .contentdetail h5{
     margin: 2rem;

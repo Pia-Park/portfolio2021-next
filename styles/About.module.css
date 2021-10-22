@@ -92,8 +92,10 @@
 .contentdetailall{
     width: 85vw;
     height: 79vh;
-    overflow: scroll;
+    overflow: auto;
 }
+
+
 
 .contentdetail{
     display: flex;
