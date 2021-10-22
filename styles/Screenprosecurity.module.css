@@ -130,14 +130,13 @@
     display: flex;
     flex-direction: row;
     padding-left: 1.5rem;
-
 }
 
 .before{
     padding-right: 3rem;
     font-size: 0.7rem;
-
 }
+
 
 .text{
     color: white;

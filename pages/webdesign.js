@@ -99,6 +99,16 @@ export default function Webdesign() {
                     </Link>
                   </div>
                   <div className={styles.detailbox}>
+                    <Link href="/screenprosecurity" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/screenpro_main.jpg" alt="screenpro website design" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          Screenpro Security.com
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
+                  <div className={styles.detailbox}>
                     <a className={styles.detail} data-fancybox="video" data-caption="JustBB, Web Magazine Design, Photoshop/Illustrator, 2014" href="/justbb.webm">
                       <img src="/webjustbb.png" className={styles.detailimg} alt="JustBB Webzine"/>
                       JustBB.mov
