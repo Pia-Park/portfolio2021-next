@@ -75,7 +75,7 @@ export default function Datametrex() {
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
-                    <a href="https://www.datametrex.com/" target="_blank">
+                    <a href="https://www.datametrex.com/" target="_blank" rel="noreferrer">
                       <img src="/dm_main.jpg" alt="datametrex website design, 2021"></img>
                     </a>
                   </div>
