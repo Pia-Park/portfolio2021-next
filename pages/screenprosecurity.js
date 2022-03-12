@@ -28,7 +28,7 @@ export default function Screenprosecurity() {
   return (
     <div className={styles.main}>
       <Head>
-        <title>PARK INAE PORTFOLIO 2021</title>
+        <title>PARK INAE PORTFOLIO 2022</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
       </Head>

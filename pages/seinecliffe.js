@@ -1,47 +1,37 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Graphicdesign2.module.css'
-import { Fancybox } from "@fancyapps/ui";
+import styles from '../styles/Seinecliffe.module.css'
+import Link from 'next/link'
 import React from 'react';
 import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
-
-import Link from 'next/link'
-
-
+import { style } from 'dom-helpers';
 
 var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
 
 
-export default function Graphicdesign() {
+export default function Seinecliffe() {
 
-    const [anchorEl, setAnchorEl] = React.useState(null);
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
-    const handleClick = (event) => {
-        setAnchorEl(event.currentTarget);
-    };
+  const handleClick = (event) => {
+      setAnchorEl(event.currentTarget);
+  };
 
-    const handleClose = () => {
-        setAnchorEl(null);
-    };
+  const handleClose = () => {
+      setAnchorEl(null);
+  };
 
 
   return (
     <div className={styles.main}>
-        <link
-        rel="stylesheet"
-        href="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.css"
-        />
-
       <Head>
         <title>PARK INAE PORTFOLIO 2022</title>
         <meta name="description" content="Web - Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
-        {/* <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script> */}
       </Head>
-
 
       <main className={styles.main}>
         <div className={styles.mainallbar}>
@@ -79,27 +69,44 @@ export default function Graphicdesign() {
 
         <div className={styles.contentbox}>
             <div className={styles.contentboxhead}>
-                Graphic Design
+                Seinecliffe.zip
             </div>
-            <div className={styles.contentx}><Link href="/">✕</Link></div>
-                <div className={styles.contentdetail}>
-                  <div className={styles.detailbox}>
-                    <Link href="/seinecliffe" className={styles.detail} passHref>
-                      <about className={styles.detaillink}>
-                        <img src="/seinecliffe_mockup2_thumb.jpg" alt="Seinecliffe Branding" className={styles.detailimg}></img>
-                        <boxtext className={styles.detaillinktext}>
-                          Seinecliffe.zip
-                        </boxtext>              
-                      </about>
-                    </Link>
+            <div className={styles.contentx}><Link href="/graphicdesign">✕</Link></div>
+            <div className={styles.contentdetailall}>
+              <div className={styles.contentdetail}>
+                  <div className={styles.imgbox}>
+                    <a href="https://www.seinecliffe.com/" target="_blank" rel="noreferrer">
+                      <img src="/seinecliffe_mockup2_thumb.jpg" alt="Seinecliffe Branding, 2022"></img>
+                    </a>
                   </div>
-                </div>
-            
+                  <contenttext className={styles.contenttext}>
+                      <b>Seinecliffe Branding, 2021</b>
+                      Photoshop / Illustrator <br></br>
+                      • Logo Design<br></br>
+                      • Applications Design<br></br>
+                      <br></br><br></br><br></br>
+                      <div className={styles.beforeafter}>
+                        <div className={styles.before}> 
+                          <b>Business Card</b><br></br>
+                          <img src="BC_mockup2.jpg" alt="datametrex main page before" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <b></b><br></br>
+                          <img src="BC_mockup1.jpg" alt="datametrex main page After" className={styles.imgexplain}></img>
+                        </div>
+                      </div>
+                      <br></br><br></br>
+                     
+                      
+
+                  </contenttext>
+              </div>
+
+            </div>
         </div>
         
-      </main>    
-      
+
+      </main>      
     </div>
-    
   )
 }
