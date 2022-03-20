@@ -86,14 +86,25 @@ export default function Graphicdesign() {
                   <div className={styles.detailbox}>
                     <Link href="/seinecliffe" className={styles.detail} passHref>
                       <about className={styles.detaillink}>
-                        <img src="/seinecliffe_mockup2_thumb.jpg" alt="Seinecliffe Branding" className={styles.detailimg}></img>
+                        <img src="/seinecliffe_thumb.jpg" alt="Seinecliffe Branding" className={styles.detailimg}></img>
                         <boxtext className={styles.detaillinktext}>
                           Seinecliffe.zip
                         </boxtext>              
                       </about>
                     </Link>
                   </div>
+                  <div className={styles.detailbox}>
+                    <Link href="/screenprosecurityGraphic" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/SCRN_thumbs.jpg" alt="Screenpro Security Marketing Graphics" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          Screenpro Security.zip
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
                 </div>
+      
             
         </div>
         

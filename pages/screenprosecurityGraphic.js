@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import Image from 'next/image'
-import styles from '../styles/Seinecliffe.module.css'
+import styles from '../styles/ScreenprosecurityGraphic.module.css'
 import Link from 'next/link'
 import React from 'react';
 import Button from '@material-ui/core/Button';
@@ -12,7 +12,7 @@ var moment = require('moment')
 var date = moment().format('YYYY-MM-DD HH:mm:ss'); 
 
 
-export default function Seinecliffe() {
+export default function ScreenprosecurityGraphic() {
 
   const [anchorEl, setAnchorEl] = React.useState(null);
 
@@ -68,7 +68,7 @@ export default function Seinecliffe() {
         </div>
         <div className={styles.contentbox}>
             <div className={styles.contentboxhead}>
-                Seinecliffe.zip
+                Screenpro Security.zip
             </div>
             <div className={styles.contentx}><Link href="/graphicdesign">✕</Link></div>
             <div className={styles.contentdetailall}>
@@ -79,11 +79,11 @@ export default function Seinecliffe() {
                   <contenttext className={styles.contenttext}>
                     <textbox className={styles.textbox}>
                       <div className={styles.titlebig}>
-                        Seinecliffe Brand Identity, 2021
+                        Screenpro Security Graphic design for Marketing, 2021 - 2022
                       </div>
-                      <div><b>Industry</b> Property Management</div>
+                      <div><b>Industry</b> Medical</div>
                       <div><b>Mission</b> Logo design indicating that a business related to property managemnet is carried out. Design of various applications using the logo created.</div>
-                      <div><b>Website</b> <a href="https://www.seinecliffe.com/" target="_blank" rel="noreferrer">www.seinecliffe.com</a></div>
+                      <div><b>Website</b> <a href="https://www.screenprosecurity.com/" target="_blank" rel="noreferrer">www.screenprosecurity.com</a></div>
                     </textbox>
                       <div className={styles.imgbox}>
                           <img src="/seinecliffe_logo1.jpg" alt="Seinecliffe Branding, 2021"></img>

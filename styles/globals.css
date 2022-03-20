@@ -32,6 +32,10 @@ a {
   height: 1rem;
 }
 
+::-webkit-scrollbar-corner{
+  background: rgba(0, 0, 0, 0);
+}
+
 ::-webkit-scrollbar-track{
   background-color: rgba(29, 28, 28, 0);
 }
