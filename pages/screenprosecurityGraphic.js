@@ -74,7 +74,7 @@ export default function ScreenprosecurityGraphic() {
             <div className={styles.contentdetailall}>
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
-                      <img src="/seinecliffe_mockup2_thumb.jpg" alt="Seinecliffe Branding, 2022"></img>
+                      <img src="/fb_cover_2037x754.jpg" alt="Screenpro Security graphic for Social media, 2021"></img>
                   </div>
                   <contenttext className={styles.contenttext}>
                     <textbox className={styles.textbox}>
@@ -82,26 +82,34 @@ export default function ScreenprosecurityGraphic() {
                         Screenpro Security Graphic design for Marketing, 2021 - 2022
                       </div>
                       <div><b>Industry</b> Medical</div>
-                      <div><b>Mission</b> Logo design indicating that a business related to property managemnet is carried out. Design of various applications using the logo created.</div>
+                      <div><b>Mission</b> Create ads and marketing promotional materials that can convey brand images and promote products.</div>
                       <div><b>Website</b> <a href="https://www.screenprosecurity.com/" target="_blank" rel="noreferrer">www.screenprosecurity.com</a></div>
                     </textbox>
-                      <div className={styles.imgbox}>
-                          <img src="/seinecliffe_logo1.jpg" alt="Seinecliffe Branding, 2021"></img>
-                          <img src="/seinecliffe_logo2.jpg" alt="Seinecliffe Branding, 2021"></img>
-                      </div>
-                      <div className={styles.titlesmall}>Business Card</div>
+                    <br></br>
+                      <div className={styles.titlesmall}>Social Media Graphic</div>
                       <div className={styles.beforeafter}>
                         <div className={styles.before}> 
-                          <img src="BC_mockup2.jpg" alt="datametrex main page before" className={styles.imgexplain}></img>
+                          <img src="/screenpro1.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
                         </div>
                         <div className={styles.before}> 
-                          <img src="BC_mockup1.jpg" alt="datametrex main page After" className={styles.imgexplain}></img>
+                          <img src="/screenpro4.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro6.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro2.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro3.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro8.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
                         </div>
                       </div>
                       <div className={styles.imgbox}>
-                          <div><b>Poster</b></div>
-                          <img src="/seinecliffe_poster.jpg" alt="Seinecliffe Branding, 2021"></img>
-                          <img src="/seinecliffe_mockup1.jpg" alt="Seinecliffe Branding, 2021"></img>
+                          <div><b>Flyer</b></div>
+                          <img src="/SCRN_flyer.jpg" alt="Screenrpo Security Flyer, 2021"></img>
                       </div>
                       <br></br><br></br>
                      

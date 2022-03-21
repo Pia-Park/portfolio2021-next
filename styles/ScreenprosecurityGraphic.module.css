@@ -121,15 +121,18 @@
 }
 
 .imgexplain{
-    width: 40vw;
-    padding: 0rem;
+    width: 20vw;
+    padding: 0 1rem 1rem 1rem;
 }
 
 .beforeafter{
     display: flex;
+    width: 100%;
     flex-direction: row;
-    padding: 1rem;
+    padding: 2rem;
     justify-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .before{
