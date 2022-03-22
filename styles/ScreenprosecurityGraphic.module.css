@@ -176,6 +176,21 @@
     align-items: center;
 }
 
+.colorbox1{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #00a279;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox2{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #FF8500;
+    margin: 0 1rem 0 1rem;
+}
 
 
 @media (max-width: 600px) {

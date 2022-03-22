@@ -86,6 +86,13 @@ export default function ScreenprosecurityGraphic() {
                       <div><b>Website</b> <a href="https://www.screenprosecurity.com/" target="_blank" rel="noreferrer">www.screenprosecurity.com</a></div>
                     </textbox>
                     <br></br>
+                    <div className={styles.titlesmall}>Brand Color palette</div>
+                    <div className={styles.beforeafter}>
+                      <div className={styles.colorbox1}>
+                      </div>
+                      <div className={styles.colorbox2}>
+                      </div>
+                    </div>
                       <div className={styles.titlesmall}>Social Media Graphic</div>
                       <div className={styles.beforeafter}>
                         <div className={styles.before}> 
@@ -105,6 +112,15 @@ export default function ScreenprosecurityGraphic() {
                         </div>
                         <div className={styles.before}> 
                           <img src="/screenpro8.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro10.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro11.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
+                        </div>
+                        <div className={styles.before}> 
+                          <img src="/screenpro12.jpg" alt="Screenpro Security SNS graphic" className={styles.imgexplain}></img>
                         </div>
                       </div>
                       <div className={styles.imgbox}>

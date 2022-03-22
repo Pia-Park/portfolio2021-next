@@ -85,6 +85,14 @@ export default function Seinecliffe() {
                       <div><b>Mission</b> Logo design indicating that a business related to property managemnet is carried out. Design of various applications using the logo created.</div>
                       <div><b>Website</b> <a href="https://www.seinecliffe.com/" target="_blank" rel="noreferrer">www.seinecliffe.com</a></div>
                     </textbox>
+                    <br></br>
+                    <div className={styles.titlesmall}>Brand Color palette</div>
+                    <div className={styles.beforeafter}>
+                      <div className={styles.colorbox1}>
+                      </div>
+                      <div className={styles.colorbox2}>
+                      </div>
+                    </div>
                       <div className={styles.imgbox}>
                           <img src="/seinecliffe_logo1.jpg" alt="Seinecliffe Branding, 2021"></img>
                           <img src="/seinecliffe_logo2.jpg" alt="Seinecliffe Branding, 2021"></img>
