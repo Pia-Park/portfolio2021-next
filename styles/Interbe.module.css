@@ -1,0 +1,313 @@
+.main{
+    padding: 0.5rem;
+}
+  
+.mainallbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: rgba(0, 0, 0, 0.8);
+    margin: -1rem;
+    padding: 0.6rem;
+  
+}
+  
+.menubar a{
+    padding-right: 2.5rem;
+}
+  
+.menubar b{
+    padding-right: 2.5rem;
+}
+.menubar :hover{
+    color: gray;
+}
+  
+.menubar img{
+    width: 1rem;
+    height: 1rem;
+    margin-right: 1rem;
+}
+  
+.menubar{
+    display: flex;
+    flex-direction: row;
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.bgmenu{
+    display: none;
+}
+
+.time{
+    color: white;
+    font-size: 0.8rem;
+    font-weight: 100;
+    letter-spacing: 0.1rem;
+}
+
+.contentbox{
+    position: relative;
+    width: 85vw;
+    height: 85vh;
+    background: linear-gradient(#1b1b1b, #111111);
+    margin: 2rem;
+    border-radius: 1rem;
+    border: 0.5px solid rgb(68, 68, 68);
+    margin: 2rem auto;
+
+}
+
+.contentboxhead{
+    width: 84.8vw;
+    height: 5vh;
+    background-color: rgba(0, 0, 0, 0.4);
+    border-radius: 1rem 1rem 0 0;    
+    color: white;
+    text-align: center;
+    line-height: 2rem;
+    letter-spacing: 0.1rem;
+}
+
+.contentx{
+    position: absolute;
+    top: 0;
+    color: tomato;
+    background-color: tomato;
+    width: 1.2rem;
+    height: 1.2rem;
+    border-radius: 0.6rem;
+    text-align: center;
+    font-size: 1rem;
+    margin: 0.5rem;
+}
+
+.contentx a:hover{
+    color: black;
+}
+
+.contentdetailall{
+    width: 85vw;
+    height: 79vh;
+    overflow: scroll;
+}
+
+.contentdetail{
+    display: flex;
+    flex-direction: column;
+
+}
+
+.imgbox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.imgbox img{
+    width: 70vw;
+    height: auto;
+    padding: 1rem;
+}
+
+.imgbox a{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.imgexplain{
+    width: 40vw;
+    padding: 0rem;
+}
+
+.beforeafter{
+    display: flex;
+    flex-direction: row;
+    padding: 1rem;
+    justify-items: center;
+}
+
+.before{
+    padding-right: 0rem;
+    font-size: 0.7rem;
+}
+
+.text{
+    color: white;
+    text-align: center;
+    letter-spacing: 0.1rem;
+    font-weight: 100;
+    font-size: 0.6rem;
+    margin-top: -3rem;
+}
+
+.textbox{
+    width: 50vw;
+    padding: 1rem;
+}
+
+.titlebig{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.titlesmall{
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+.contenttext{
+    color: white;
+    font-weight: 100;
+    /* padding: 1rem; */
+    letter-spacing: 0.1rem;
+    line-height: 2rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.colorbox1{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #403b38;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox2{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #FF9921;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox3{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox4{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #000000;
+    margin: 0 1rem 0 1rem;
+}
+
+
+@media (max-width: 600px) {
+    .grid {
+      width: 100%;
+      flex-direction: column;
+    }
+    .contentdetail{
+        display: flex;
+        flex-direction: column;
+    
+    } 
+
+    .imgbox{
+        align-items: center;
+    } 
+
+    .imgbox img{
+        width: 20rem;
+        height: auto;
+    }
+
+    .text{
+        font-size: 1rem;
+        margin-top: 0rem;
+        line-height: 1rem;
+    }
+
+    .textbox{
+        width: 75vw;
+    }
+
+    .titlebig{
+        font-size: 1.2rem;
+    }
+
+    .contenttext{
+        padding: 2rem;
+        line-height: 1.8rem;
+    }
+    .mainallbar{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background-color: rgba(0, 0, 0, 0.8);
+        margin: -1rem;
+        padding: 0.6rem;
+      
+    }
+      
+    .menubar a{
+        padding-right: 0.8rem;
+        font-size: 0rem;
+        font-weight: 300;
+    
+    }
+
+    .bgmenu{
+        display: block;
+    }
+      
+    .menubar b{
+        padding-right: 1rem;
+        line-height: 1rem;
+    }
+    .menubar :hover{
+        color: gray;
+    }
+      
+    .menubar img{
+        width: 1rem;
+        height: 1rem;
+        margin-right: 1rem;
+    }
+      
+    .menubar{
+        display: flex;
+        flex-direction: row;
+        color: white;
+        font-size: 0.8rem;
+        font-weight: 100;
+        letter-spacing: 0.1rem;
+    }
+
+    .before{
+        padding-right: 0rem;
+        font-size: 0.7rem;   
+    }
+
+    .imgexplain{
+        width: 70vw;
+    }
+
+    .beforeafter{
+        flex-direction: column;
+    }
+      
+    .time{
+        color: white;
+        font-size: 0rem;
+        /* font-weight: 100; */
+        /* letter-spacing: 0.1rem; */
+    }
+
+}

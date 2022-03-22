@@ -86,7 +86,7 @@ export default function Graphicdesign() {
                   <div className={styles.detailbox}>
                     <Link href="/seinecliffe" className={styles.detail} passHref>
                       <about className={styles.detaillink}>
-                        <img src="/seinecliffe_thumb.jpg" alt="Seinecliffe Branding" className={styles.detailimg}></img>
+                        <img src="/seinecliffe_thumb.jpg" alt="Seinecliffe Brand Identity" className={styles.detailimg}></img>
                         <boxtext className={styles.detaillinktext}>
                           Seinecliffe.zip
                         </boxtext>              
@@ -99,6 +99,16 @@ export default function Graphicdesign() {
                         <img src="/SCRN_thumbs.jpg" alt="Screenpro Security Marketing Graphics" className={styles.detailimg}></img>
                         <boxtext className={styles.detaillinktext}>
                           Screenpro Security.zip
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
+                  <div className={styles.detailbox}>
+                    <Link href="/interbe" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/interbe_thumb.jpg" alt="interBE Solutions Brand identity" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          interBE Solutions.zip
                         </boxtext>              
                       </about>
                     </Link>
