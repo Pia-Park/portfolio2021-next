@@ -82,7 +82,7 @@ export default function Interbe() {
                         interBE Solutions Brand Identity, 2021
                       </div>
                       <div><b>Industry</b> EV charging</div>
-                      <div><b>Mission</b> Logo design indicating that a business related to property managemnet is carried out. Design of various applications using the logo created.</div>
+                      <div><b>Mission</b> Logo design indicating that a business related to EV Charging Platform is carried out. Design of various applications using the logo created.</div>
                       <div><b>Website</b> <a href="https://www.interbesolutions.com/" target="_blank" rel="noreferrer">www.interbesolutions.com</a></div>
                     </textbox>
                     <br></br>
@@ -114,6 +114,9 @@ export default function Interbe() {
                         <div className={styles.before}> 
                           <img src="interbe_bc2.jpg" alt="interBE business card" className={styles.imgexplain}></img>
                         </div>
+                      </div>
+                      <div className={styles.imgbox}>
+                          <img src="/interbe_mockup.jpg" alt="interBE Brand identity, 2021"></img>
                       </div>
                       <div className={styles.imgbox}>
                           <div><b>Poster</b></div>
