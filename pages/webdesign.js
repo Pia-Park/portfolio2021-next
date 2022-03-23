@@ -89,6 +89,16 @@ export default function Webdesign() {
             <div className={styles.contentall}>
                 <div className={styles.contentdetail}>
                   <div className={styles.detailbox}>
+                    <Link href="/interbeWeb" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/interbe_main.jpg" alt="interBE Solutions website design" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          interBE Solutions.com
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
+                  <div className={styles.detailbox}>
                     <Link href="/datametrex" className={styles.detail} passHref>
                       <about className={styles.detaillink}>
                         <img src="/dm_main.jpg" alt="datametrex website design" className={styles.detailimg}></img>
