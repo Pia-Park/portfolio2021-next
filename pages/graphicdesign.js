@@ -123,6 +123,17 @@ export default function Graphicdesign() {
                       </about>
                     </Link>
                   </div>
+                  <div className={styles.detailbox}>
+                    <Link href="/datametrexGraphic" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/DM_sns1.jpg" alt="Datametrex Graphic for Social Media" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          Datametrex.zip
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
+
                 </div>
       
             
