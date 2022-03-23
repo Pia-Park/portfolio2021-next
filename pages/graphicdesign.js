@@ -113,6 +113,16 @@ export default function Graphicdesign() {
                       </about>
                     </Link>
                   </div>
+                  <div className={styles.detailbox}>
+                    <Link href="/conciergemedical" className={styles.detail} passHref>
+                      <about className={styles.detaillink}>
+                        <img src="/cm_thumb.jpg" alt="Concierge Medical Brand identity" className={styles.detailimg}></img>
+                        <boxtext className={styles.detaillinktext}>
+                          Concierge Medical.zip
+                        </boxtext>              
+                      </about>
+                    </Link>
+                  </div>
                 </div>
       
             

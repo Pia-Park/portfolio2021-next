@@ -105,7 +105,7 @@
     grid-template-columns: repeat(auto-fit, minmax(200px, max-content));
     /* grid-gap: 6rem; */
     grid-row-gap: 18rem;
-    grid-column-gap: 4rem;
+    grid-column-gap: 6rem;
     justify-content: center;
     padding: 1rem;
     width: 85vw;
