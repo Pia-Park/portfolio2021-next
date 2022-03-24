@@ -7,6 +7,8 @@ import Button from '@material-ui/core/Button';
 import Menu from '@material-ui/core/Menu';
 import MenuItem from '@material-ui/core/MenuItem';
 import { style } from 'dom-helpers';
+import { Fancybox } from "@fancyapps/ui";
+
 
 
 var moment = require('moment')
@@ -105,16 +107,19 @@ export default function InterbeWeb() {
                       </div>
                     </div>
                     <br></br>
-                    <div className={styles.titlesmall}>Illustration</div>
+                    <div className={styles.titlesmall}>Icons</div>
                     <div className={styles.imgbox}>
                           <img src="/interbe_illu1.jpg" alt="interBE Website Design, 2021"></img>
                           <img src="/interbe_illu2.jpg" alt="interBE Website Design, 2021"></img>
                           <img src="/interbe_illu3.jpg" alt="interBE Website Design, 2021"></img>
 
                     </div>
-
-
-
+                    <div className={styles.titlesmall}>Live Website</div>
+                    <div >
+                      <video autoPlay loop style={{ width: '70vw', height: 'auto'}} >
+                        <source src="/interbe.webm" />
+                      </video>
+                    </div>
                   </contenttext>
               </div>
 

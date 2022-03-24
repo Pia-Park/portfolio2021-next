@@ -208,6 +208,16 @@
     margin: 0 1rem 0 1rem;
 }
 
+.videobox{
+    width: 40vw;
+    height: auto;
+    padding: 2rem;
+}
+
+.videoimg{
+    width: 40vw;
+}
+
 
 @media (max-width: 600px) {
     .grid {
