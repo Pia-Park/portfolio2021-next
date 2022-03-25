@@ -86,8 +86,14 @@ export default function DatametrexGraphic() {
                       <div><b>Website</b> <a href="https://www.datametrex.com/" target="_blank" rel="noreferrer">www.datametrex.com</a></div>
                     </textbox>
                     <br></br>
+                    <br></br>             
+                    <div className={styles.titlesmall}>Graphic for Social Media Profile</div>
+                    <div className={styles.imgbox}>
+                          <img src="/dm_twitter.jpg" alt="Datametrex Advertising, 2022"></img>
+                    </div>
                     <br></br>
-                    <div className={styles.titlesmall}>Graphic for Social Media</div>
+
+                    <div className={styles.titlesmall}>Graphic for Social Media Post</div>
                       <div className={styles.beforeafter}>
                           <div className={styles.before}>
                             <img src="/DM_sns1.jpg" alt="Datametrex Graphic for Social Media, 2022" className={styles.imgexplain}></img>
