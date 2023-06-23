@@ -82,8 +82,8 @@ export default function About() {
                   </div>
                   <contenttext className={styles.contenttext}>
                       <b>PARK INAE </b><br></br>
-                      Web Designer / Graphic Designer / Illustrator<br></br>
-                      I have been a Web and Graphic designer and Illustrator for 6 years, I have various types of design project experiences: website design, web advertising design, print material design, brand identity design, package design and illustration. 
+                      Web Designer / UI UX Designer / Graphic Designer / Illustrator<br></br>
+                      I have been a Web / UI UX and Graphic designer and Illustrator for 7 years, I have various types of design project experiences: website design, app design, web advertising design, print material design, brand identity design, package design and illustration. 
                       I believe that design helps people and connects people to people. Making people happy is the purpose of my design.    <br></br>
                       <br></br><b>Skills</b><br></br>
                       Adobe Photoshop / Adobe Illustrator<br></br>

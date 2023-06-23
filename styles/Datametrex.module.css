@@ -159,6 +159,64 @@
     align-items: center;
 }
 
+.textbox{
+    width: 50vw;
+    padding: 1rem;
+}
+
+.titlebig{
+    font-weight: 500;
+    font-size: 1.5rem;
+    padding-bottom: 0.3rem;
+}
+
+.titlesmall{
+    font-size: 1rem;
+    font-weight: 500;
+    padding: 1rem;
+}
+
+.colorbox1{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #72bf44;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox2{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #5e5e5c;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox3{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #FFFFFF;
+    margin: 0 1rem 0 1rem;
+}
+
+.colorbox4{
+    width: 7rem;
+    height: 7rem;
+    border-radius: 50%;
+    background-color: #000000;
+    margin: 0 1rem 0 1rem;
+}
+
+.videobox{
+    width: 40vw;
+    height: auto;
+    padding: 2rem;
+}
+
+.videoimg{
+    width: 40vw;
+}
 
 
 @media (max-width: 600px) {
