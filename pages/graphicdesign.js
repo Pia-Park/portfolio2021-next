@@ -36,8 +36,8 @@ export default function Graphicdesign() {
         />
 
       <Head>
-        <title>PARK INAE PORTFOLIO 2022</title>
-        <meta name="description" content="Web - Grapic Designer Portfolio " />
+        <title>PARK INAE PORTFOLIO 2023</title>
+        <meta name="description" content="Web/UI/UX and Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
         {/* <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui/dist/fancybox.umd.js"></script> */}
       </Head>

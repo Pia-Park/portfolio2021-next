@@ -27,8 +27,8 @@ export default function About() {
   return (
     <div className={styles.main}>
       <Head>
-        <title>PARK INAE PORTFOLIO 2022</title>
-        <meta name="description" content="Web - Grapic Designer Portfolio " />
+        <title>PARK INAE PORTFOLIO 2023</title>
+        <meta name="description" content="Web/UI/UX and Grapic Designer Portfolio " />
         <link rel="icon" href="/icon.png" />
       </Head>
 
