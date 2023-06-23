@@ -76,12 +76,12 @@ export default function Medicall() {
               <div className={styles.contentdetail}>
                   <div className={styles.imgbox}>
                     <a href="https://www.medicallmd.ca/" target="_blank" rel="noreferrer">
-                      <img src="/medicall_main.jpg" alt="Screenpro Security website design, 2021"></img>
+                      <img src="/medicall_main.jpg" alt="Medi-Call website design, 2022"></img>
                       Visit the website (click)
                     </a>
                   </div>
                 <contenttext className={styles.contenttext}>
-                      <b>Medicall MD website design, 2021</b>
+                      <b>Medicall MD website design, 2022</b>
                       Photoshop / Illustrator / Wix<br></br>
                       • Website redesign<br></br>
                       • Update information<br></br>

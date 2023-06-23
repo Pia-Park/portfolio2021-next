@@ -83,7 +83,7 @@ export default function Datametrex() {
                   <contenttext className={styles.contenttext}>
                     <textbox className={styles.textbox}>
                       <div className={styles.titlebig}>
-                        Datametrex Brand Identity, 2022
+                        Datametrex Brand Identity, 2023
                       </div>
                       <div><b>Industry</b> IT </div>
                       <div><b>Mission</b> Website design indicating that a business related to EV Charging Platform is carried out.</div>
