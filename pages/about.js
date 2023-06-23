@@ -95,7 +95,7 @@ export default function About() {
                       <br></br><b>Language</b><br></br>
                       English / Korean / Japanese<br></br>
                       <br></br><b>Like</b><br></br>
-                      Donut / Library / Walking / Spicy Food / McDonald&apos;s<br></br>
+                      Donut / Library / Walking / Spicy Food / McDonald / Book &apos;s<br></br>
                 
                   </contenttext>
               </div>
