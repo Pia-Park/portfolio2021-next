@@ -101,7 +101,7 @@ export default function Webdesign() {
                   <div className={styles.detailbox}>
                     <Link href="/datametrex" className={styles.detail} passHref>
                       <about className={styles.detaillink}>
-                        <img src="/dm2023_main.jpg" alt="datametrex website design" className={styles.detailimg}></img>
+                        <img src="/dm2023_web.jpg" alt="datametrex website design" className={styles.detailimg}></img>
                         <boxtext className={styles.detaillinktext}>
                           datametrex.com
                         </boxtext>              
