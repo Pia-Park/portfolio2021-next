@@ -103,12 +103,15 @@ export default function Datametrex() {
                       </div>
                     </div>
                     <br></br>
-                    <div className={styles.titlesmall}>Icons</div>
+                    <div className={styles.titlesmall}>AnalysticGPT</div>
                     <div className={styles.imgbox}>
-                          <img src="/interbe_illu1.jpg" alt="interBE Website Design, 2021"></img>
-                          <img src="/interbe_illu2.jpg" alt="interBE Website Design, 2021"></img>
-                          <img src="/interbe_illu3.jpg" alt="interBE Website Design, 2021"></img>
-
+                          <img src="/agpt.jpg" alt="Datametrex Website Design, 2023"></img>
+                    </div>
+                    <div className={styles.titlesmall}>AnalysticGPT Live Landing Page</div>
+                    <div >
+                      <video autoPlay loop style={{ width: '70vw', height: 'auto'}} >
+                        <source src="/agpt.webm" />
+                      </video>
                     </div>
                     <div className={styles.titlesmall}>Live Website</div>
                     <div >
